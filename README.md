@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<! DOCTYPE html >
+< html  lang = " pt-br " >
+< cabeça > <! - Cabeça inicial ->
+    < meta  charset = " UTF- 8 " >
+    < meta  http-equiv = " X-UA-Compatible " content = " IE = edge " >
+    < meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
+    < link  rel = " stylesheet " href = " ./css/estilo_praticando02.css " >
+    < title > Modelo de Caixa </ title >
+</ head > <! - Fim head ->
 
-You can use the [editor on GitHub](https://github.com/jardel978/jardel_pages/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+< corpo >
+    < cabeçalho > <! - Cabeçário ->
+        < img  id = " logo " src = " ./midia/logo-dh.jpg " alt = " logo da digital house " >
+        < div  class = " barra-pesquisa " >
+            pesquisa
+        </ div >
+    </ header >
+        < div  class = " navegacao-materias " > <! - navegação entre materias ->
+            < nav >
+                < button  class = " botao-materia " > < img  class = " icone-botao " src = " ./midia/javascript.png " alt = "" > MATERIA01 </ button >
+                < button  class = " botao-materia " > < img  class = " icone-botao " src = " ./midia/codigo.png.png " alt = "" > MATERIA02 </ button >
+                < button  class = " botao-materia " > < img  class = " icone-botao " src = " ./midia/computador-pessoal (1) .png " alt = "" > MATERIA03 </ button >
+                < button  class = " botao-materia " > < img  class = " icone-botao " src = " ./midia/html.png " alt = "" > MATERIA04 </ button >
+            </ nav >
+        </ div >
+    < div  class = " main " >
+        < div  class = " materia caixa-materia1 " > <! - Informação da Materia1 ->
+            Nome da Materia1
+            < div  class = " caixa-conteudo " >
+                conteudo
+            </ div >
+        </ div >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jardel978/jardel_pages/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        < div  class = " materia caixa-materia2 " > <! - Informação da Materia2 ->
+            Nome da Materia2
+            < div  class = " caixa-conteudo " >
+                conteudo
+            </ div >
+        </ div >
+    </ div >
+</ body >
+</ html >
