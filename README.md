@@ -10,7 +10,7 @@
 
 <body>
     <header><!-- Cabeçário -->
-        <img id="logo" src="./logo-dh.jpg" alt="logo da digital house">
+        <img id="logo" src="./logodh.jpg" alt="logo da digital house">
         <div class="barra-pesquisa">
             pesquisa
         </div>
